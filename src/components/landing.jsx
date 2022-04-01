@@ -77,8 +77,8 @@ function landing() {
             <div id='feature'  className="product-features row m-0  ">
                 <div className="col col-lg-6 col-md-6 col-sm-12 col-xm-12 features-text">
                     <p style={{fontWeight:'600',fontSize:'1.5rem', color:'#b77943'}}>PRODUCT FEATURES</p>
-                    <h1> Think high always expect the best.</h1>
-                    <p className='about-product' >Oil-control shampoos would help keep your scalp grease-free. Anti-dandruff products would ensure that you are free of flaky scalp. Use conditioners to control your frizz,</p>
+                    <h1> Perks of Kooky</h1>
+                    <p className='about-product' >Smooth, shiny, silky hair Voluminous effect Conditioning and care Water-"LESS" Instant Solution</p>
                     
                                     </div>
                 <div  className="col col-lg-6 col-md-6 col-sm-12 col-xm-12 features-img ">
