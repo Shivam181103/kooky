@@ -1,9 +1,11 @@
 import React, { Component } from 'react'
 import './orderNow.css'
+import {Link} from 'react-router-dom';
 export default class orderNow extends Component {
   render() {
     return (
       <>
+         <div className="cont-wrapper">
         <div className="container">
         <h1>Shipping</h1>
         <p>Please enter your shipping details.</p>
@@ -48,7 +50,9 @@ export default class orderNow extends Component {
           </div>
         </div>
         <hr />
-        <button className="button">Continue</button>
+        <a style={{textDecoration:'none'}} href="https://rzp.io/l/enmixDg"> <button className="button">Continue</button></a>
+      </div>
+      <h4> <Link style={{textDecoration:'none', color:'brown'}} to='/'> --back </Link></h4>
       </div>
       </>
     )

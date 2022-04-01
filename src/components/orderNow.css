@@ -26,6 +26,7 @@ html {
 
 body {
   margin: 0;
+ 
 }
 
 h1 {
@@ -43,14 +44,24 @@ hr {
   border: 0;
   margin: 2rem 0;
 }
-
+.cont-wrapper{
+  background-color: rgb(245,169,114);
+  padding: 3rem;
+  position: relative;
+}
+.cont-wrapper>h4{
+  position: absolute;
+  top: 3rem;
+  left: 3rem;
+}
 .container {
   max-width: 40rem;
   padding: 10vw 2rem 0;
   margin: 0 auto;
    
-  background-color: #F5A972;
+  background-color: rgb(242, 202, 184);
    padding-bottom: 3rem;
+   
 }
 
 .form {
@@ -106,12 +117,12 @@ hr {
 .button {
   background-color: #000;
   text-transform: uppercase;
-  font-size: 0.8rem;
+  font-size: 1rem;
   font-weight: 600;
   display: block;
   color: #fff;
   width: 100%;
-  padding: 1rem;
+  padding: 0.8rem;
   border-radius: 0.25rem;
   border: 0;
   cursor: pointer;
