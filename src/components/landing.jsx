@@ -10,6 +10,9 @@ import img7 from './Assets/img7.jpg';
 import img8 from './Assets/img8.jpg';
  import {Link} from 'react-router-dom';
 import img9 from './Assets/img9.jpg';
+import img10 from './Assets/img10.jpeg'
+import img12 from './Assets/img12.png'
+import img13 from './Assets/img13.png'
 
 
 import Slider from 'react-slick'
@@ -65,15 +68,15 @@ function landing() {
                     
                 </div>
                 <div className=" col col-lg-6 col-md-6 col-sm-12 col-xm-12 landing-text">
-                    <p>ALL NATURAL</p>
+                    <p className='natural'>ALL NATURAL</p>
                     <h1>Kooky For Everybody</h1>
-                    <p className='about-product' >Now no more need to spend hours behind a hair wash routine. Your fresh and smooth conditioned hair is now the responsibility of KOOKY.</p>
-                    <Link to="/ordernow"> <button className='order-now' >Order Now</button></Link>
+                    <p className='about-product' >We believe that everyone deserves effortlessly flawless hair! Hence, we've brought you a formula that solves the purpose instantly! All you need now, is a bottle of kooky!</p>
+                    <a href="https://rzp.io/l/FG2Bf6o5m"><button className='order-now' >Order Now</button></a>
                 </div>
             </div>
             <div id='feature'  className="product-features row m-0  ">
                 <div className="col col-lg-6 col-md-6 col-sm-12 col-xm-12 features-text">
-                    <p style={{fontWeight:'600',fontSize:'1.5rem'}}>PRODUCT FEATURES</p>
+                    <p style={{fontWeight:'600',fontSize:'1.5rem', color:'#b77943'}}>PRODUCT FEATURES</p>
                     <h1> Think high always expect the best.</h1>
                     <p className='about-product' >Oil-control shampoos would help keep your scalp grease-free. Anti-dandruff products would ensure that you are free of flaky scalp. Use conditioners to control your frizz,</p>
                     
@@ -103,34 +106,35 @@ function landing() {
        <div className="ninitynine row m-0">
            <div className="col col-lg-6 img-container">
                 <div className="img-cont">
-                   
+                
                 </div>
            </div>
            <div className="col col-lg-6 text-cont-99">
-               <h1>99%</h1>
-               <h2>Be good to your hair. You’ll wear it everyday</h2>
+               <h1>99rs Only</h1>
+               <h2>Flawless hair is an art, and Kooky can be your muse! Buy Kooky in Rs. 99/- Only!</h2>
                <p>It is going to represent you for very long time</p>
+               <a href="https://rzp.io/l/FG2Bf6o5m"><button className='order-now' >Order Now</button></a>
            </div>
        </div>
             <div className="before-after">
                 <div className='befo-after row m-0 '>
                     <div className="col col-lg-5 col-sm-12 col-xm-12 befo-after-text">
-                      <p>Before & After</p>
+                      <p style={{color:'#b77943'}}>Free Delivery</p>
                       <h1>Add Wow To Your Hairs</h1>
                       <p className='befo-product'> Beautiful hairs requires commitment. Keep your hairs moisterised</p>
-                      <Link to="/ordernow"> <button className='order-now' >Order Now</button></Link>
+                      <a href="https://rzp.io/l/FG2Bf6o5m"><button className='order-now' >Order Now</button></a>
 
                     </div>
                     <div className="col col-lg-7 col-sm-12 col-xm-12 before-after-img">
-                        <img style={{width:'100%'}} src={img4} alt="" />
+                        <img   src={img10} alt="" />
                     </div>
                 </div>
                
             </div>
               <div className="footer-wrapper">
                   <div className="footer-img-container">
-                      <div className='foot-img1'></div>
-                      <div className='foot-img2'></div>
+                      <div className='foot-img1'><img src={img12} className="foot-img" /></div>
+                      <div className='foot-img2'><img src={img13} className="foot-img"  /></div>
                       
                   </div>
             <div className="footers row m-0">
@@ -141,7 +145,7 @@ function landing() {
                  </div>
                  <div className="col col-lg-6 col-sm-12 col-md-6 col-xm-12 follow-us"><a href=""> Follow Us </a></div>
                  <hr  />
-                 <p>Copyright 2022, Kooky</p>
+                 <p style={{color:'black'}} >Copyright 2022, Kooky</p>
             </div>
             
             </div>

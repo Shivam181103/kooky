@@ -43,10 +43,15 @@
      font-weight: 600;
 }
 
+.natural{
+    color: #B77943;
+}
+
 .landing-text>h1{
     font-size:5rem;
     font-family: Playfair Display;
     font-weight: 600;
+    
 
 }
 
@@ -75,6 +80,7 @@
     margin-top: -20rem;
     height: 150%;
     width:auto;
+    overflow:hidden;
  }
 
  .features-text{
@@ -132,27 +138,24 @@
     margin-top: 6rem;
 }
 
-  
-
 .before-after-img{
     height:90vh;
     overflow: hidden;
-  
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 0;
-
     border-radius: 20px 0 0 20px ;
 }
+
 .before-after-img>img{
-    height: 120vh;
+    height: 100vh;
 }
 
 .befo-after-text{
     padding: 4rem;
 }
- 
+
 .befo-after-text>p{
     font-size: 1.5rem;
     font-weight: 600;
@@ -186,8 +189,8 @@
     
 }
 .img-cont{
-    width: 30rem;
-    height: 35rem;
+    width:100vw;
+    height: 100vh;
     margin: 6rem 2rem;
      border-radius: 5px;
     overflow: hidden;
@@ -204,14 +207,14 @@
 }
 
 .text-cont-99>h1{
-    font-size: 7rem;
+    font-size: 5rem;
     color:  #B77943;
      padding: 0.5rem 0;
 }
 
 .text-cont-99>h2{
     width: 70%;
-    font-size: 3.4rem;
+    font-size: 3rem;
     font-family: serif;
     font-weight: 600;
 
@@ -249,19 +252,22 @@
     margin:0 0 2rem 0;
     color: #000;
 }
-.foot-img1{
-    background-image: url('./Assets/img8.jpg');
+.foot-img1>img{
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    
+}
+.foot-img2>img{
     background-position: center;
     background-size:cover;
     background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
 }
-.foot-img2{
-    background-image: url('./Assets/img7.jpg');
-    background-position: center;
-    background-size:cover;
-    background-repeat: no-repeat;
-}
- 
+
 .footers>div>button{
     width: 13rem;
     height: 3.7rem;
@@ -468,7 +474,7 @@ font-weight: 600;
         justify-content: baseline;
     }
     .footers>div>button{
-        width: 10rem;
+        width: 12rem;
         height: 3rem;
     }
      .footers>hr{
