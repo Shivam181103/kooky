@@ -91,61 +91,16 @@ function landing() {
         <>
             <div className=" row m-0 landing-wrapper">
                 <div className=" col col-lg-6 col-md-6 col-sm-12 col-xm-12 landing-img">
-
-
-
-
-                    <Slider {...settings}>
-                        <div>
+ 
+                         <div>
                             <div className="slider-img">
 
 
                                 <img src={img1} alt="" />
                             </div>
                         </div>
-                        <div>
-                            <div className="slider-img">
-
-                                <img src={img2} alt="" />
-                            </div>
-                        </div>
-                        <div>
-                            <div className="slider-img">
-
-                                <img src={img3} alt="" />
-                            </div>
-                        </div>
-                        <div>
-                            <div className="slider-img">
-
-                                <img src={img4} alt="" />
-                            </div>
-                        </div>
-                        <div>
-                            <div className="slider-img">
-
-                                <img src={img5} alt="" />
-                            </div>
-                        </div>
-                        <div>
-                            <div className="slider-img">
-
-                                <img src={img6} alt="" />
-                            </div>
-                        </div>
-
-
-
-                    </Slider>
-
-                    <div className="slider-dots">
-                        <img src={img1} alt="" />
-                        <img src={img2} alt="" />
-                        <img src={img3} alt="" />
-                        <img src={img4} alt="" />
-                        <img src={img5} alt="" />
-                        <img src={img6} alt="" />
-                    </div>
+                        
+                    
                 </div>
                 <div className=" col col-lg-6 col-md-6 col-sm-12 col-xm-12 landing-text">
                     <p>ALL NATURAL</p>
