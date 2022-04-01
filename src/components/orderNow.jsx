@@ -29,7 +29,7 @@ export default class orderNow extends Component {
             <span className="field__label" htmlFor="country">Country</span>
             <select className="field__input" id="country">
               <option value />
-              <option value="unitedstates">United States</option>
+              <option value="unitedstates">India</option>
             </select>
           </label>
           <div className="fields fields--3">
@@ -41,16 +41,10 @@ export default class orderNow extends Component {
               <span className="field__label" htmlFor="city">City</span>
               <input className="field__input" type="text" id="city" />
             </label>
-            <label className="field">
-              <span className="field__label" htmlFor="state">State</span>
-              <select className="field__input" id="state">
-                <option value />
-              </select>
-            </label>
           </div>
         </div>
         <hr />
-        <a style={{textDecoration:'none'}} href="https://rzp.io/l/enmixDg"> <button className="button">Continue</button></a>
+        <a style={{textDecoration:'none'}} href="https://rzp.io/l/FG2Bf6o5m"> <button className="button">Continue</button></a>
       </div>
       <h4> <Link style={{textDecoration:'none', color:'brown'}} to='/'> --back </Link></h4>
       </div>
