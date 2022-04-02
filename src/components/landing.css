@@ -71,16 +71,15 @@
 }
  .features-img {
    z-index: 1;
-   height: 120vh;
+   height: 100vh;
   overflow: hidden;
   }
  .features-img>img{
     
-    margin-left: -30rem;
-    margin-top: -20rem;
-    height: 150%;
-    width:auto;
-    overflow:hidden;
+    width: 100%;
+    height: 100%;
+   
+ 
  }
 
  .features-text{
@@ -262,6 +261,7 @@
     background-size: cover;
     height: 100%;
     width: 100%;
+    border-radius: 10px;
     
 }
 .foot-img2>img{
@@ -270,6 +270,7 @@
     background-repeat: no-repeat;
     height: 100%;
     width: 100%;
+    border-radius: 10px;
 }
 
 .footers>div>button{
@@ -350,7 +351,7 @@ font-weight: 600;
     }
     .features-img{
         width: 100%;
-       height: 35rem;
+       height: 28rem;
        margin: 0;
        overflow: hidden;
     }
