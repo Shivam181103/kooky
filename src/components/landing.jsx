@@ -106,7 +106,7 @@ function landing() {
        <div className="ninitynine row m-0">
            <div className="col col-lg-6 img-container">
                 <div className="img-cont">
-                
+                <img src={img7} />
                 </div>
            </div>
            <div className="col col-lg-6 text-cont-99">
@@ -121,7 +121,7 @@ function landing() {
                     <div className="col col-lg-5 col-sm-12 col-xm-12 befo-after-text">
                       <p style={{color:'#b77943'}}>Free Delivery</p>
                       <h1>Add Wow To Your Hairs</h1>
-                      <p className='befo-product'> Beautiful hairs requires commitment. Keep your hairs moisterised</p>
+                      <p className='befo-product'> Beautiful hairs requires commitment.</p>
                       <a href="https://rzp.io/l/FG2Bf6o5m"><button className='order-now' >Order Now</button></a>
 
                     </div>
