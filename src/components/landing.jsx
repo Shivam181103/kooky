@@ -115,7 +115,6 @@ function landing() {
            <div className="col col-lg-6 text-cont-99">
                <h1>99rs Only</h1>
                <h2>Flawless hair is an art, and Kooky can be your muse! Buy Kooky in Rs. 99/- Only!</h2>
-               <p>It is going to represent you for very long time</p>
                <a href="https://rzp.io/l/FG2Bf6o5m"><button className='order-now' >Order Now</button></a>
            </div>
        </div>
@@ -143,7 +142,7 @@ function landing() {
             <div className="footers row m-0">
                  <div className="col col-lg-6 col-sm-12 col-md-6 col-xm-12">
                      <p>Quick Contact</p>
-                       <button>  <a href="">  Connect With Us </a></button>
+                       <button>  <a href="https://instagram.com/kooky_india?utm_medium=copy_link">  Connect With Us </a></button>
                     
                  </div>
                  <div className="col col-lg-6 col-sm-12 col-md-6 col-xm-12 follow-us"><a href=""> Follow Us </a></div>
