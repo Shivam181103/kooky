@@ -143,7 +143,7 @@ function landing() {
             <div className="footers row m-0">
                  <div className="col col-lg-6 col-sm-12 col-md-6 col-xm-12">
                      <p>Quick Contact</p>
-                       <button>  <a href="">  Connect With Us </a></button>
+                       <button>  <a href="https://instagram.com/kooky_india?utm_medium=copy_link">  Connect With Us </a></button>
                     
                  </div>
                  <div className="col col-lg-6 col-sm-12 col-md-6 col-xm-12 follow-us"><a href=""> Follow Us </a></div>
