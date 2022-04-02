@@ -78,11 +78,14 @@ function landing() {
                 <div className="col col-lg-6 col-md-6 col-sm-12 col-xm-12 features-text">
                     <p style={{fontWeight:'600',fontSize:'1.5rem', color:'#b77943'}}>PRODUCT FEATURES</p>
                     <h1> Perks of Kooky</h1>
-                    <p className='about-product' >Smooth, shiny, silky hair Voluminous effect Conditioning and care Water-"LESS" Instant Solution</p>
+                    <p className='about-product' > • Smooth, shiny, silky hair<br/>
+• Voluminous effect<br/>
+• Conditioning and care<br/>
+• Water-"LESS" Instant Solution</p>
                     
                                     </div>
                 <div  className="col col-lg-6 col-md-6 col-sm-12 col-xm-12 features-img ">
-                  <img src={img6} alt="" />
+                  <img  src={img7} alt="" />
                 </div>
 
                 <div className="slide-container">
@@ -106,7 +109,7 @@ function landing() {
        <div className="ninitynine row m-0">
            <div className="col col-lg-6 img-container">
                 <div className="img-cont">
-                <img src={img7} />
+                <img src={img6} />
                 </div>
            </div>
            <div className="col col-lg-6 text-cont-99">
