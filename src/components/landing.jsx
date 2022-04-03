@@ -13,6 +13,7 @@ import img9 from './Assets/img9.jpg';
 import img10 from './Assets/img10.jpeg'
 import img12 from './Assets/img12.png'
 import img13 from './Assets/img13.png'
+import img14 from './Assets/img14.jpeg'
 
 
 import Slider from 'react-slick'
@@ -85,7 +86,7 @@ function landing() {
                     
                                     </div>
                 <div  className="col col-lg-6 col-md-6 col-sm-12 col-xm-12 features-img ">
-                  <img  src={img7} alt="" />
+                  <img  src={img14} alt="" />
                 </div>
 
                 <div className="slide-container">
