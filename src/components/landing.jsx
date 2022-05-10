@@ -1,6 +1,6 @@
 import React from 'react'
 import './landing.css'
-import img1 from './Assets/img1.jpg';
+import img1 from './Assets/NEW1.jpg';
 import img2 from './Assets/img2.jpg';
 import img3 from './Assets/img3.jpg';
 import img4 from './Assets/img4.jpg';
@@ -8,12 +8,13 @@ import img5 from './Assets/img5.jpg';
 import img6 from './Assets/img6.jpg';
 import img7 from './Assets/img7.jpg';
 import img8 from './Assets/img8.jpg';
- import {Link} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 import img9 from './Assets/img9.jpg';
 import img10 from './Assets/img10.jpeg'
 import img12 from './Assets/img12.png'
 import img13 from './Assets/img13.png'
 import img14 from './Assets/img14.jpeg'
+import img15 from './Assets/img15.jpeg'
 
 
 import Slider from 'react-slick'
@@ -69,9 +70,9 @@ function landing() {
                     
                 </div>
                 <div className=" col col-lg-6 col-md-6 col-sm-12 col-xm-12 landing-text">
-                    <p className='natural'>ALL NATURAL</p>
-                    <h1>Kooky For Everybody</h1>
-                    <p className='about-product' >We believe that everyone deserves effortlessly flawless hair! Hence, we've brought you a formula that solves the purpose instantly! All you need now, is a bottle of kooky!</p>
+                    {/* <p className='natural'>ALL NATURAL</p> */}
+                    <h1>KOOKY WATERLESS SHAMPOO<br/>For Everyone</h1>
+                    <p className='about-product' >This product is made using cleansing charcoal and special conditioning quality, which gives you perfect hair ever so quick!</p>
                     <a href="https://rzp.io/l/FG2Bf6o5m"><button className='order-now' >Order Now</button></a>
                 </div>
             </div>
@@ -82,7 +83,9 @@ function landing() {
                     <p className='about-product' > • Smooth, shiny, silky hair<br/>
 • Voluminous effect<br/>
 • Conditioning and care<br/>
-• Water-"LESS" Instant Solution</p>
+• Water-"LESS" Instant Solution<br/>
+• Add mild fragrance to your hair
+</p>
                     
                                     </div>
                 <div  className="col col-lg-6 col-md-6 col-sm-12 col-xm-12 features-img ">
@@ -96,7 +99,7 @@ function landing() {
                             <div className='slider-img-container'><img className='slider-img-second'  src={img3} alt="" />
                         </div></div>
                         <div>
-                            <div className='slider-img-container'><img className='slider-img-second'  src={img6} alt="" />
+                            <div className='slider-img-container'><img className='slider-img-second'  src={img15} alt="" />
                         </div></div>
                         <div>
                            <div className='slider-img-container'> <img  className='slider-img-second' src={img4} alt="" />
@@ -114,12 +117,12 @@ function landing() {
                 </div>
            </div>
            <div className="col col-lg-6 text-cont-99">
-               <h1>99rs Only</h1>
-               <h2>Flawless hair is an art, and Kooky can be your muse! Buy Kooky in Rs. 99/- Only!</h2>
+               <h1>149rs Only</h1>
+               <h2>Flawless hair is an art, and Kooky can be your muse! Buy Kooky in Rs. 149/- Only!</h2>
                <a href="https://rzp.io/l/FG2Bf6o5m"><button className='order-now' >Order Now</button></a>
            </div>
        </div>
-            <div className="before-after">
+            {/* <div className="before-after">
                 <div className='befo-after row m-0 '>
                     <div className="col col-lg-5 col-sm-12 col-xm-12 befo-after-text">
                       <p style={{color:'#b77943'}}>Free Delivery</p>
@@ -133,17 +136,16 @@ function landing() {
                     </div>
                 </div>
                
-            </div>
-              <div className="footer-wrapper">
-                  <div className="footer-img-container">
-                      <div className='foot-img1'><img src={img12} className="foot-img" /></div>
-                      <div className='foot-img2'><img src={img13} className="foot-img"  /></div>
-                      
-                  </div>
+            </div> */}
+            <div className="footer-wrapper">
+                <div className="footer-img-container">
+                    <div className='foot-img1'><img src={img12} className="foot-img" /></div>
+                    <div className='foot-img2'><img src={img13} className="foot-img"  /></div>
+                </div>
             <div className="footers row m-0">
-                 <div className="col col-lg-6 col-sm-12 col-md-6 col-xm-12">
-                     <p>Quick Contact</p>
-                       <button>  <a href="https://instagram.com/kooky_india?utm_medium=copy_link">  Connect With Us </a></button>
+                <div className="col col-lg-6 col-sm-12 col-md-6 col-xm-12">
+                    <p>Quick Contact</p>
+                    <button>  <a href="https://instagram.com/kooky_india?utm_medium=copy_link">  Connect With Us </a></button>
                     
                  </div>
                  <div className="col col-lg-6 col-sm-12 col-md-6 col-xm-12 follow-us"><a href=""> Follow Us </a></div>
