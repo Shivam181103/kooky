@@ -11,8 +11,8 @@ import img8 from './Assets/img8.jpg';
 import {Link} from 'react-router-dom';
 import img9 from './Assets/img9.jpg';
 import img10 from './Assets/img10.jpeg'
-import img12 from './Assets/img12.png'
-import img13 from './Assets/img13.png'
+import img12 from './Assets/img11.png'
+import img13 from './Assets/img16.png'
 import img14 from './Assets/img14.jpeg'
 import img15 from './Assets/img15.jpeg'
 
@@ -72,7 +72,7 @@ function landing() {
                 <div className=" col col-lg-6 col-md-6 col-sm-12 col-xm-12 landing-text">
                     {/* <p className='natural'>ALL NATURAL</p> */}
                     <h1>KOOKY WATERLESS SHAMPOO<br/>For Everyone</h1>
-                    <p className='about-product' >This product is made using cleansing charcoal and special conditioning quality, which gives you perfect hair ever so quick!</p>
+                    <p className='about-product' >We believe that everyone deserves effortlessly flawless hairs! Hence we've have brought you a formula that solves the purpose instantly! All you need now is a bottle of Kooky. This product is made using cleansing charcoal and special conditioning quality, which gives you perfect hair ever so quick!</p>
                     <a href="https://rzp.io/l/FG2Bf6o5m"><button className='order-now' >Order Now</button></a>
                 </div>
             </div>
