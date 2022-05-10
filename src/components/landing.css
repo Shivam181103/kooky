@@ -2,7 +2,7 @@
 
 
  .landing-wrapper{
-    padding-bottom:3rem;
+    /* padding-bottom:3rem; */
      }
  
  .landing-img{
@@ -14,12 +14,13 @@
  
  .landing-img>div{
      width: 100%;
+     height: 100%;
      
  }
  
  .slider-img{
     width: 100%;
-    height: 90vh;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -27,7 +28,8 @@
 }
 .slider-img>img{
     width: 100%; 
-    height:45rem;
+    height:50rem;
+    /* padding: 3rem; */
  }
  .landing-text{
     padding: 4rem;
