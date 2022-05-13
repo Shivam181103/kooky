@@ -1,6 +1,6 @@
 import React from 'react'
 import './landing.css'
-import img1 from './Assets/NEW1.jpg';
+import img1 from './Assets/NEW2.jpg';
 import img2 from './Assets/img2.jpg';
 import img3 from './Assets/img3.jpg';
 import img4 from './Assets/img4.jpg';
@@ -13,7 +13,7 @@ import img9 from './Assets/img9.jpg';
 import img10 from './Assets/img10.jpeg'
 import img12 from './Assets/img11.png'
 import img13 from './Assets/img16.png'
-import img14 from './Assets/img14.jpeg'
+import img14 from './Assets/NEW3.jpg'
 import img15 from './Assets/img15.jpeg'
 
 
