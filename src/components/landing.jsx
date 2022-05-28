@@ -19,12 +19,10 @@ import img15 from './Assets/img15.jpeg'
 
 import Slider from 'react-slick'
 function landing() {
-  
     const settings1 = {
         dots: true,
         infinite: true,
         speed: 500,
-         
         slidesToShow: 2,
         slidesToScroll: 1,
         responsive: [
@@ -70,6 +68,7 @@ function landing() {
                     
                 </div>
                 <div className=" col col-lg-6 col-md-6 col-sm-12 col-xm-12 landing-text">
+                <a href="https://rzp.io/l/FG2Bf6o5m"><button className='order-now1' >Order Now</button></a>
                     {/* <p className='natural'>ALL NATURAL</p> */}
                     <h1>KOOKY WATERLESS SHAMPOO<br/>For Everyone</h1>
                     <p className='about-product' >We believe that everyone deserves effortlessly flawless hairs! Hence we've have brought you a formula that solves the purpose instantly! All you need now is a bottle of Kooky. This product is made using cleansing charcoal and special conditioning quality, which gives you perfect hair ever so quick!</p>
